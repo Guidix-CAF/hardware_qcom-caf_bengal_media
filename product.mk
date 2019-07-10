@@ -26,3 +26,5 @@ PRODUCT_PACKAGES += $(MM_VIDEO)
 include $(TARGET_HALS_PATH)/media/conf_files/$(TARGET_BOARD_PLATFORM)/$(TARGET_BOARD_PLATFORM).mk
 
 endif
+
+PRODUCT_VENDOR_PROPERTIES += debug.stagefright.ccodec=1
